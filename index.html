@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+<body>
+    <div  style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <h1>NoteBook</h1>
+        Search Notes : <input type="text" id="filter">
+        Total Notes : <span id="show1">0</span>
+        Showing : <span id="show2">0</span>
+     </div>
+     <div>
+        Note Title : <input type="text" id="input1"><br><br>
+        Note Desc :  <input type="text" id="input2"><br><br>
+        <button type="button" id="button1">Add To Book</button>
+     </div>
+     <div>
+        <ul id="todo"></ul>
+     </div>
+</body>
+<script src="index.js" defer></script>
+
+</html>
